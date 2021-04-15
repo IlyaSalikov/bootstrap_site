@@ -9,25 +9,156 @@
 </head>
 <body>
 <!--navbar-->
-<nav class="navbar">
+<nav class="navbar navbar-expand-md fixed-top">
     <a href="#" class="navbar-brand">Home</a>
     <!--burger menu should be here-->
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent">
+        <span class="fa fa-bars"></span>
+    </button>
 
-    <div class="d-flex">
-        <ul class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav w-100 justify-content-end">
             <li class="nav-item"><a href="#" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="https://facebook.com" class="nav-link" target="_blank">
                 <i class="fab fa-facebook-f">
-                    <span>Facebook</span>
-                </i></a>
+                    <span class="d-md-none">Facebook</span>
+                </i>
+            </a>
             </li>
-
         </ul>
     </div>
 </nav>
+
+<!--header-->
+<header>
+    <div class="overlay"></div>
+    <div class="container d-flex align-items-center h-100">
+        <div class="description">
+            <h1>Welcome to my website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum minima recusandae totam ut
+                vitae. Architecto assumenda eaque laudantium ut.</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg">See more</a>
+        </div>
+    </div>
+</header>
+
+<div class="about id=about">
+    <div class="container">
+        <h1 class="text-center">About me</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <img src="images/JD.png" alt="JD" class="img-fluid d-block mx-auto img-thumbnail">
+                <hr>
+                <h4 class="text-center lead">Dr. J.D.</h4>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <h3>Scrubs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum hic in nemo nobis qui soluta
+                    tenetur totam voluptate voluptatem. Amet asperiores dolorum exercitationem, id illum iure minima
+                    nihil officiis porro vitae. Aliquam aperiam aspernatur autem consectetur dignissimos doloremque
+                    error excepturi explicabo, facilis fugit harum illum ipsam ipsum itaque libero maiores nulla
+                    obcaecati odio omnis provident quaerat quam repellat rerum sequi similique sunt, voluptatibus? Autem
+                    consectetur consequatur consequuntur cum delectus dicta eum facere fuga, fugiat harum id illum
+                    inventore labore minima natus quae quas qui quia quidem reiciendis similique ullam voluptates.
+                    Consectetur distinctio exercitationem id incidunt maxime molestiae nulla sit.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--portfolio-->
+<div class="portfolio" id="portfolio">
+    <h1 class="text-center my-5">Portfolio</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+        </div>
+    </div>
+</div>
+
+<!--team-->
+<div class="team" id="team"></div>
+    <h1 class="text-center my-5">Out team</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 team-item">
+            <img src="images/cox.jpg" alt="team" class="img-fluid">
+            <div class="team-des">
+                <div class="team-des-1">Dr.Cox</div>
+                <div class="team-des-2">Lorem ipsum dolor sit amet, consectetur.</div>
+            </div>
+            <span class="text-muted">Main doctor</span>
+        </div>
+        <div class="col-sm-6 col-md-3 team-item">
+            <img src="images/cox.jpg" alt="team" class="img-fluid">
+            <div class="team-des">
+                <div class="team-des-1">Dr.Cox</div>
+                <div class="team-des-2">Lorem ipsum dolor sit amet, consectetur.</div>
+            </div>
+            <span class="text-muted">Main doctor</span>
+        </div>
+        <div class="col-sm-6 col-md-3 team-item">
+            <img src="images/cox.jpg" alt="team" class="img-fluid">
+            <div class="team-des">
+                <div class="team-des-1">Dr.Cox</div>
+                <div class="team-des-2">Lorem ipsum dolor sit amet, consectetur.</div>
+            </div>
+            <span class="text-muted">Main doctor</span>
+        </div>
+        <div class="col-sm-6 col-md-3 team-item">
+            <img src="images/cox.jpg" alt="team" class="img-fluid">
+            <div class="team-des">
+                <div class="team-des-1">Dr.Cox</div>
+                <div class="team-des-2">Lorem ipsum dolor sit amet, consectetur.</div>
+            </div>
+            <span class="text-muted">Main doctor</span>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
