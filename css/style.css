@@ -21,6 +21,11 @@ header {
     transform: scale(1.1);
     transition: 3s;
 }
+.description:not(:hover) {
+    transition: 3s;
+}
+
+
 /*header end*/
 
 
